@@ -1,10 +1,10 @@
-import { Angular2JwtAuthenticationPage } from './app.po';
+import { Actv8ClientDashboardPage } from './app.po';
 
-describe('angular2-jwt-authentication App', () => {
-  let page: Angular2JwtAuthenticationPage;
+describe('angular2-jwt-authentication App', function() {
+  let page: Actv8ClientDashboardPage;
 
   beforeEach(() => {
-    page = new Angular2JwtAuthenticationPage();
+    page = new Actv8ClientDashboardPage();
   });
 
   it('should display message saying app works', () => {

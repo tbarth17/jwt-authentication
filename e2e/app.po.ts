@@ -1,6 +1,6 @@
 import { browser, element, by } from 'protractor';
 
-export class Angular2JwtAuthenticationPage {
+export class Actv8ClientDashboardPage {
   navigateTo() {
     return browser.get('/');
   }
